@@ -1,2 +1,16 @@
 # ClientServer
 From Client/Server Development class
+
+1) How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+I write programs that are maintainable, readable and adaptable by including comments and notation that informs myself or other developers what the functions or code does as well as the expected arguments and what will be returned by the function.  This helps to make the code easier to understand and edit for future projects.  It also helps to make it easier to include my code in other projects that use the same types of arguments.  It's possible that my Python module could be used for other NoSQL databases in the future with limited editing.
+
+2) How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+My approach to a problem consists of having a good understanding of what the problem is and what the desired resolution may be.  If it's a bug that I'm investigating, reproduce the issue and understand what is occurring, then investigate to find what may be causing the issue.  If it's a new feature, finding what existing libraries or modules can be used to perform the same tasks is a good place to start when beginning to write the code.  
+
+In this case, we found that the PyMongo API helped us to perform many of the basic functions that we needed so we just needed to create the module to use these functions.  Using Dash helped to make the dashboard much easier to implement once the Python module was created.  This approach was somewhat different from other classes as we didn't only have the functions and program to be concerned with but we also had the dashboard to build.  The steps of building the module that is used for the functionality of the dashboard worked well and I would use it again. Also creating the module that is generic enough to be able to use it in other projects is a huge benefit and will help in future projects.
+
+3) What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists help to take what may be a large manual process and build programs to allow them to be done faster and more automated.  They solve problems to make processes more efficient and hopefully easier than they normally would have been.  The work that was done on this project helps Grazioso Salvare to be able to quickly find the animals that match their requirements and allow them to spend more time on other parts of their business.  By giving them quick filtering options, and possibly building additional ones in the future, it helps them to save time and money that can be used elsewhere.
